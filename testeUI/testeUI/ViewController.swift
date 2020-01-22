@@ -27,6 +27,9 @@ class ViewController: UIViewController {
         if let weight = Double(tfWeight.text!), let height = Double (tfHeight.text!){
             imc = weight / (height*height)
             showResults()
+
+            view.endEditing(true)
+                
         }
     }
     /*@IBAction func calculate(_ sender: Any) {

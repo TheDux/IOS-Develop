@@ -10,7 +10,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testeUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -20,12 +19,6 @@
                                 <rect key="frame" x="93" y="20" width="189" height="32"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descubra seu indice de massa corporal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-ro-MFK">
-                                <rect key="frame" x="16" y="70" width="301" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Peso(Kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RJ-9e-vOn">
@@ -102,6 +95,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descubra seu Indice de massa corporal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9j-Ss-Q0Q">
+                                <rect key="frame" x="34" y="76" width="308" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.31764705882352939" green="0.69411764705882351" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -114,12 +114,9 @@
                             <constraint firstItem="5RJ-9e-vOn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="U1Q-Jd-wfC"/>
                             <constraint firstItem="OQx-O8-qYk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="XBb-tg-Vqo"/>
                             <constraint firstItem="Ypc-A8-knR" firstAttribute="top" secondItem="EIW-qn-O5H" secondAttribute="bottom" constant="29" id="c2B-e0-6pM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lFL-ro-MFK" secondAttribute="trailing" symbolic="YES" id="fTH-CX-Zwa"/>
                             <constraint firstItem="EIW-qn-O5H" firstAttribute="centerX" secondItem="Ypc-A8-knR" secondAttribute="centerX" id="gNT-4n-cWq"/>
-                            <constraint firstItem="5RJ-9e-vOn" firstAttribute="top" secondItem="lFL-ro-MFK" secondAttribute="bottom" constant="39" id="hz1-Qe-J6S"/>
                             <constraint firstItem="Ypc-A8-knR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="k7I-Vg-EuD"/>
                             <constraint firstItem="Ypc-A8-knR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tRz-B5-iw9"/>
-                            <constraint firstItem="EIW-qn-O5H" firstAttribute="leading" secondItem="lFL-ro-MFK" secondAttribute="leading" id="xeC-a1-phC"/>
                             <constraint firstItem="EIW-qn-O5H" firstAttribute="top" secondItem="Vmx-9b-RXM" secondAttribute="bottom" constant="28" id="yZo-63-N7A"/>
                             <constraint firstItem="5RJ-9e-vOn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="130" id="zWu-Wf-sbu"/>
                         </constraints>
@@ -133,6 +130,7 @@
                         <outlet property="viResults" destination="Ypc-A8-knR" id="knm-Ng-E6A"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="97.601199400299862"/>
         </scene>
