@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             imc = weight / (height*height)
             showResults()
 
-            view.endEditing(true)
+             view.endEditing(true)
                 
         }
     }
@@ -61,10 +61,10 @@ class ViewController: UIViewController {
             result = "Obesidade"
             image = "obesidade.png"
         }
-        viResults.isHidden = false
-        lbResult.text = result
         
-       self.viImg.image =  UIImage(named: image)
+        viResults.isHidden = false
+        lbResult.text = "\(Int(imc)):\(result)"
+        self.viImg.image =  UIImage(named: image)
         
     }
 
