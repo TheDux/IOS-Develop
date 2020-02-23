@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A999DDDC-FBD0-443E-9400-56CEACAC0049"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B7025A5-D3F2-415A-8017-F89D1520E0DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Loteria/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "2B7025A5-D3F2-415A-8017-F89D1520E0DF - c506600592d10647"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Loteria.GameType.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;Loteria.GameType&gt;"
+                  moduleName = "Loteria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiagomartins/Documents/PersonalGit/IOS-Develop/Loteria/Loteria/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "2B7025A5-D3F2-415A-8017-F89D1520E0DF - a7257a37b2379055"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Loteria.GameType.rawValue.getter : Swift.String"
+                  moduleName = "Loteria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiagomartins/Documents/PersonalGit/IOS-Develop/Loteria/Loteria/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
